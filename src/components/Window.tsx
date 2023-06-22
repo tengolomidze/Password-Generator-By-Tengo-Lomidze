@@ -55,7 +55,7 @@ const Window = () => {
                 </div>  
 
                 <div className='text-white flex w-full items-center justify-between'>
-                    <input onChange={(e) => setLenght(Number(e.target.value))} type='range' min="4" max="32" defaultValue={16} step="1" className="mt-2 w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"/>
+                    <input onChange={(e) => setLenght(Number(e.target.value))} type='range' min="4" max="25" defaultValue={16} step="1" className="mt-2 w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"/>
                 </div>
             </div>
 
